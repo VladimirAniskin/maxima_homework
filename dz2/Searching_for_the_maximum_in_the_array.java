@@ -1,3 +1,5 @@
+package dz2;
+
 import java.util.Scanner;
 
 public class Searching_for_the_maximum_in_the_array {

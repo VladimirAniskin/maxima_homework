@@ -1,18 +1,20 @@
+package dz2;
+
 import java.util.Scanner;
 
-public class Delenie {
+public class Raznost {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Пожалуйста введите первое число!");
-        double a = scanner.nextDouble();
+        int a = scanner.nextInt();
         System.out.println("Пожалуйста введите второе число!");
-        double b = scanner.nextDouble();
-        double result;
+        int b = scanner.nextInt();
+        int result;
         if ( a < b ) {
-            result = b / a;
-        }else {
-            result = a / b;
-        }
-        System.out.println("Ответ: " + result);
+            result = b - a;
+        } else {
+            result = a - b;
+        } System.out.println("Ответ: " + result);
+
     }
 }

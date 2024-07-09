@@ -1,3 +1,5 @@
+package dz2;
+
 import java.util.Scanner;
 
 public class Checking_for_a_prime_number {
