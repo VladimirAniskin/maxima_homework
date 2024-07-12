@@ -1,3 +1,5 @@
+package dz4;
+
 public interface PDUControler {
     void switchinByNumbers(int namber);
 

@@ -1,3 +1,5 @@
+package dz4;
+
 public class Channel {
     private String nameCannal;
     private TVTransmission[] Transmission;

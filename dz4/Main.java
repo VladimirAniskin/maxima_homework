@@ -1,3 +1,5 @@
+package dz4;
+
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +13,7 @@ public class Main {
                 new TVTransmission("Очумелые ручки"),
                 new TVTransmission("Играй гармонь")};
         Channel[] channels = {new Channel(1, "ОРТ", program),
-                new Channel(2, "REN-TV", program),
+                new Channel(2, "REN-dz4.TV", program),
                 new Channel(3, "НТВ", program),
                 new Channel(4, "22", program),
                 new Channel(5, "5 Канал", program),

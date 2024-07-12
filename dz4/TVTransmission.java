@@ -1,3 +1,5 @@
+package dz4;
+
 public class TVTransmission {
     private String programName;
 

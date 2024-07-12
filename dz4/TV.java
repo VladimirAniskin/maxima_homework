@@ -1,3 +1,5 @@
+package dz4;
+
 public class TV {
     private Channel[] channels;
 
