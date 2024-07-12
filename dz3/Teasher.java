@@ -1,3 +1,5 @@
+package dz3;
+
 public class Teasher extends Worker {
     public Teasher(String name, String lastName, String pofession) {
         super(name, lastName, pofession);

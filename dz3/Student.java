@@ -1,3 +1,5 @@
+package dz3;
+
 public class Student extends Worker {
 
     public Student(String name, String lastName, String pofession) {

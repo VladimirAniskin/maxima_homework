@@ -1,3 +1,5 @@
+package dz3;
+
 public class VicePrincipals extends Worker {
 
     public VicePrincipals(String name, String lastName, String pofession) {

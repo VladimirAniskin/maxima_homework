@@ -1,3 +1,5 @@
+package dz3;
+
 public class Direktor extends Worker {
 
     public Direktor(String name, String lastName, String pofession) {
