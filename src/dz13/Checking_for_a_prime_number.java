@@ -1,4 +1,4 @@
-package src;
+package src.dz13;
 
 import java.util.Scanner;
 

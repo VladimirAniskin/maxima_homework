@@ -1,3 +1,5 @@
+package src.dz13;
+
 import java.util.Scanner;
 
 public class algoritm {

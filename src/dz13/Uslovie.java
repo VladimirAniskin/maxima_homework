@@ -1,6 +1,8 @@
+package src.dz13;
+
 import java.util.Scanner;
 
-public class Raznost {
+public class Uslovie {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Пожалуйста введите первое число!");
@@ -8,11 +10,16 @@ public class Raznost {
         System.out.println("Пожалуйста введите второе число!");
         int b = scanner.nextInt();
         int result;
-        if ( a < b ) {
-            result = b - a;
+        if (a > b ) {
+            System.out.println("Данное число больше");
+            result = a;
+        } else if (a < b) {
+            System.out.println("Данное число больше");
+            result = b;
         } else {
-            result = a - b;
-        } System.out.println("Ответ: " + result);
-
+            System.out.println("Оба числа равны");
+            result = 0;
+        }
+        System.out.println(result);
     }
 }
